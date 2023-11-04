@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.services:hover h3 {
+  color: white !important;
+}
+
+.servcies:hover p {
+  color: white !important;
+}
+
+.rdw-editor-main {
+  height: 250px;
+  overflow: auto;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.rti--container {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  width: 100%;
+  display: block;
+}
+
+.rti--container span {
+  margin-right: 15px;
+}
+
+.progress {
+  background-color: #ddd;
+  width: 60px;
+  height: 6px;
+  border-radius: 5px;
+}
+
+.swiper-slide {
+  background: transparent;
+  margin-bottom: 5px;
+}
